@@ -1,0 +1,369 @@
+{
+ "version": "1.0.0",
+ "aviso": "Diagnóstico orientativo. Ninguna respuesta confirma la causa de una falla. Un fusible listado protege el componente descrito en el manual; eso no significa que sea la causa.",
+ "fallas": [
+  {
+   "id": "encendido-remoto",
+   "titulo": "No funciona el encendido remoto",
+   "icono": "remote",
+   "especial": true,
+   "intro": "Guía para el caso: el auto antes arrancaba a distancia; el control sigue abriendo y cerrando, pero al intentar el arranque remoto suena un pitido breve y las luces exteriores destellan.",
+   "interpretacion": "Según el manual Ford 2014 (sistema de fábrica): al presionar dos veces el botón de arranque remoto, las luces exteriores destellan dos veces; si el sistema no logra arrancar, suena el claxon (salvo que esté activado el 'arranque silencioso'). Su síntoma es compatible con que el vehículo SÍ recibe la orden, pero una condición le impide arrancar. Esto aplica solo si el sistema es el original de Ford.",
+   "preguntas": [
+    {"id": "q1", "texto": "¿El botón de arranque remoto está en el control ORIGINAL de Ford (el mismo con el que abre y cierra el auto)?", "ayuda": "El botón de fábrica suele tener una flecha circular. Si usa un segundo control de otra marca, o el auto tiene un módulo/antena añadidos (a menudo en el parabrisas), es un sistema instalado posteriormente.",
+     "si": {"agrega": ["fabrica"], "sig": "q2"}, "no": {"agrega": ["posventa"], "sig": "qa1"}, "nose": {"agrega": ["tipo-desconocido"], "sig": "q2"}},
+    {"id": "q2", "texto": "¿Presiona primero BLOQUEAR y después DOS veces el botón de arranque remoto, con menos de 3 segundos entre cada botón?", "ayuda": "El manual indica que si no se cumple la secuencia dentro de 3 segundos, el vehículo no arranca a distancia.",
+     "si": {"sig": "q3"}, "no": {"agrega": ["secuencia"], "sig": "q3"}, "nose": {"agrega": ["secuencia"], "sig": "q3"}},
+    {"id": "q3", "texto": "¿El cofre está completamente cerrado y asegurado?", "ayuda": "Cofre abierto es una condición documentada que impide el arranque remoto.",
+     "si": {"agrega": ["cofre-sensor"], "sig": "q4"}, "no": {"agrega": ["cofre"], "sig": "q4"}, "nose": {"agrega": ["cofre"], "sig": "q4"}},
+    {"id": "q4", "texto": "¿La palanca de la transmisión queda en P (estacionamiento)?", "ayuda": "El manual exige que la transmisión esté en P.",
+     "si": {"sig": "q5"}, "no": {"agrega": ["park"], "sig": "q5"}, "nose": {"agrega": ["park"], "sig": "q5"}},
+    {"id": "q5", "texto": "La última vez que manejó, ¿estaba encendida la luz de 'servicio al motor pronto' (check engine)?", "ayuda": "Condición documentada: si el indicador estaba encendido en el último ciclo de manejo, el arranque remoto no funciona.",
+     "si": {"agrega": ["cel"], "sig": "q6"}, "no": {"sig": "q6"}, "nose": {"agrega": ["cel-verificar"], "sig": "q6"}},
+    {"id": "q6", "texto": "¿Ha notado arranque lento, testigo de batería, o la batería se descargó, se desconectó o se cambió hace poco?", "ayuda": "Voltaje de batería demasiado bajo es una condición documentada.",
+     "si": {"agrega": ["bateria"], "sig": "q7"}, "no": {"sig": "q7"}, "nose": {"agrega": ["bateria-verificar"], "sig": "q7"}},
+    {"id": "q7", "texto": "¿La alarma se disparó recientemente o estaba sonando al intentar el arranque?", "ayuda": "Alarma activada es una condición documentada.",
+     "si": {"agrega": ["alarma"], "sig": "q8"}, "no": {"sig": "q8"}, "nose": {"sig": "q8"}},
+    {"id": "q8", "texto": "¿Comprobó en la pantalla de información del tablero que el arranque remoto está HABILITADO?", "ayuda": "La función puede activarse o desactivarse en la pantalla de información. Desactivada es una condición documentada.",
+     "si": {"sig": "q9"}, "no": {"agrega": ["deshabilitado"], "sig": "q9"}, "nose": {"agrega": ["deshabilitado"], "sig": "q9"}},
+    {"id": "q9", "texto": "Al intentarlo, ¿el encendido estaba APAGADO (llave fuera / auto apagado)?", "ayuda": "Encendido activo es una condición documentada.",
+     "si": {"sig": "q10"}, "no": {"agrega": ["ignicion"], "sig": "q10"}, "nose": {"sig": "q10"}},
+    {"id": "q10", "texto": "Al presionar BLOQUEAR, ¿se bloquean todas las puertas y la cajuela queda cerrada?", "ayuda": "El primer paso del procedimiento es bloquear todas las puertas.",
+     "si": {"sig": null}, "no": {"agrega": ["puertas"], "sig": null}, "nose": {"agrega": ["puertas"], "sig": null}},
+    {"id": "qa1", "texto": "¿Tiene el manual o los datos de contacto del instalador del sistema de arranque remoto?", "ayuda": "Los sistemas de terceros tienen su propio cableado, fusibles en línea y códigos de destellos.",
+     "si": {"agrega": ["posventa-manual"], "sig": "q3"}, "no": {"agrega": ["posventa-sin-manual"], "sig": "q3"}, "nose": {"agrega": ["posventa-sin-manual"], "sig": "q3"}}
+   ],
+   "hipotesis": {
+    "fabrica": {"tipo": "info", "texto": "Sistema identificado como de fábrica: aplican las condiciones del manual Ford."},
+    "tipo-desconocido": {"tipo": "info", "texto": "No se confirmó si el sistema es de fábrica. No asuma que lo es: verifique en la factura, con el vendedor o con un distribuidor Ford (por VIN)."},
+    "posventa": {"tipo": "info", "texto": "Sistema instalado posteriormente: las condiciones y señales del manual Ford pueden no aplicar. Su cableado y sus fusibles NO aparecen en las tablas de Ford."},
+    "posventa-manual": {"tipo": "hipotesis", "texto": "Consulte en el manual del sistema instalado el significado de un pitido + destello: muchos sistemas de terceros usan su propio interruptor de cofre y códigos de error."},
+    "posventa-sin-manual": {"tipo": "hipotesis", "texto": "Sin documentación del sistema instalado no es posible relacionarlo con un fusible concreto. Acuda con un instalador de alarmas/arranques remotos."},
+    "secuencia": {"tipo": "documentada", "texto": "Secuencia incorrecta: BLOQUEAR y luego el botón de arranque dos veces, todo dentro de 3 segundos.", "fuente": {"id": "OM2014v3", "pagina": 64}},
+    "cofre": {"tipo": "documentada", "texto": "Cofre abierto o mal asegurado impide el arranque remoto.", "fuente": {"id": "OM2014v3", "pagina": 63}},
+    "cofre-sensor": {"tipo": "hipotesis", "texto": "Si el cofre está cerrado pero el sistema lo detecta como abierto, el interruptor o sensor de cofre podría estar fallando. No documentado en el manual como falla; requiere revisión con escáner por un técnico."},
+    "park": {"tipo": "documentada", "texto": "Transmisión fuera de P impide el arranque remoto.", "fuente": {"id": "OM2014v3", "pagina": 63}},
+    "cel": {"tipo": "documentada", "texto": "Luz de 'servicio al motor pronto' encendida en el último ciclo de manejo impide el arranque remoto. La falla del motor debe diagnosticarse primero.", "fuente": {"id": "OM2014v3", "pagina": 63}},
+    "cel-verificar": {"tipo": "hipotesis", "texto": "No se sabe si la luz de 'servicio al motor pronto' estaba encendida. Arranque el auto con la llave y observe el tablero; una lectura con escáner OBD-II puede confirmarlo."},
+    "bateria": {"tipo": "documentada", "texto": "Voltaje de batería demasiado bajo impide el arranque remoto.", "fuente": {"id": "OM2014v3", "pagina": 63}},
+    "bateria-verificar": {"tipo": "hipotesis", "texto": "Estado de batería desconocido. Una prueba de batería (muchas refaccionarias la hacen) puede descartarlo."},
+    "alarma": {"tipo": "documentada", "texto": "Alarma activada impide el arranque remoto. Desactive la alarma (abra con el control) y reintente.", "fuente": {"id": "OM2014v3", "pagina": 63}},
+    "deshabilitado": {"tipo": "documentada", "texto": "La función puede estar desactivada en la pantalla de información.", "fuente": {"id": "OM2014v3", "pagina": 65}},
+    "ignicion": {"tipo": "documentada", "texto": "Con el encendido activo, el arranque remoto no funciona.", "fuente": {"id": "OM2014v3", "pagina": 63}},
+    "puertas": {"tipo": "hipotesis", "texto": "Si no todas las puertas se bloquean (por ejemplo, una puerta o la cajuela mal cerradas), el primer paso del procedimiento podría no completarse."}
+   },
+   "fusibles": [
+    {"id": "P-F81", "por": "Receptor de radiofrecuencia: recibe las señales del control. Como el control sí abre y cierra, es poco probable que sea la causa.", "cuando": ["fabrica", "tipo-desconocido"]}
+   ],
+   "noConfundir": [
+    {"id": "M-F13", "por": "Fusible del relevador del MOTOR DE ARRANQUE: protege el circuito de marcha, no el control del arranque remoto. Si el auto arranca normal con la llave, este circuito funciona."},
+    {"id": "M-R10", "por": "Relevador del MOTOR DE ARRANQUE: mismo circuito de marcha. No lo puentee."}
+   ],
+   "comprobaciones": [
+    "Revise que el cofre esté cerrado con firmeza (bájelo y presiónelo hasta oír el seguro).",
+    "Con el auto apagado, transmisión en P y puertas cerradas: BLOQUEAR, luego arranque remoto dos veces, sin pausas mayores a 3 segundos.",
+    "Revise en la pantalla de información del tablero que el arranque remoto esté habilitado.",
+    "Encienda el auto con la llave y vea si queda encendida la luz de 'servicio al motor pronto'.",
+    "Si el auto arranca normal con la llave, el motor de arranque y su fusible no son el problema del arranque remoto."
+   ],
+   "tecnico": [
+    "Si la luz de 'servicio al motor pronto' está encendida: lectura de códigos con escáner.",
+    "Si todas las condiciones se cumplen y sigue fallando: revisión del interruptor de cofre y del módulo con equipo de diagnóstico.",
+    "Prueba de carga de batería si hay dudas sobre su estado.",
+    "Sistema de posventa: acudir con el instalador."
+   ],
+   "prohibido": "No puentee relevadores, no desactive el inmovilizador (PATS) y no anule el interruptor de cofre ni ningún dispositivo de seguridad."
+  },
+  {
+   "id": "no-arranca",
+   "titulo": "El vehículo no arranca",
+   "icono": "engine",
+   "intro": "Preguntas para separar fallas de batería, motor de arranque, inmovilizador y combustible/encendido.",
+   "preguntas": [
+    {"id": "q1", "texto": "Al poner el encendido, ¿encienden las luces del tablero?", "ayuda": "Si nada enciende, el problema suele estar en la batería o en sus conexiones.",
+     "si": {"sig": "q2"}, "no": {"agrega": ["sin-energia"], "sig": "q5"}, "nose": {"sig": "q2"}},
+    {"id": "q2", "texto": "Al intentar arrancar, ¿se escucha que el motor de arranque hace girar el motor?", "ayuda": "Un giro normal suena como 'rrr-rrr'. Un solo clic o silencio indica que no gira.",
+     "si": {"agrega": ["gira-no-enciende"], "sig": "q3"}, "no": {"agrega": ["no-gira"], "sig": "q4"}, "nose": {"sig": "q3"}},
+    {"id": "q3", "texto": "¿Se queda encendido o parpadeando un testigo de llave/candado (antirrobo) en el tablero?", "ayuda": "El sistema antirrobo pasivo (PATS) puede impedir el encendido si no reconoce la llave.",
+     "si": {"agrega": ["pats"], "sig": "q5"}, "no": {"sig": "q5"}, "nose": {"sig": "q5"}},
+    {"id": "q4", "texto": "¿Presiona a fondo el pedal del freno al arrancar?", "ayuda": "En vehículos con botón START/STOP el manual indica presionar a fondo el freno y luego el botón.",
+     "si": {"sig": "q3"}, "no": {"agrega": ["freno"], "sig": "q3"}, "nose": {"agrega": ["freno"], "sig": "q3"}},
+    {"id": "q5", "texto": "¿Su auto arranca con botón START/STOP (llave inteligente)?", "ayuda": "",
+     "si": {"agrega": ["keyless"], "sig": null}, "no": {"sig": null}, "nose": {"sig": null}}
+   ],
+   "hipotesis": {
+    "sin-energia": {"tipo": "hipotesis", "texto": "Batería descargada o terminales flojas/sulfatadas. Es la causa más común cuando nada enciende."},
+    "gira-no-enciende": {"tipo": "hipotesis", "texto": "El motor gira pero no enciende: revise combustible, encendido o antirrobo. Fusibles relacionados: bomba de combustible, bobinas, inyectores y computadora."},
+    "no-gira": {"tipo": "hipotesis", "texto": "El motor no gira: batería débil, circuito del motor de arranque o señal de freno/encendido."},
+    "pats": {"tipo": "hipotesis", "texto": "Posible falta de reconocimiento de la llave por el antirrobo pasivo. Pruebe con otra llave programada."},
+    "freno": {"tipo": "documentada", "texto": "Con botón START/STOP, el manual pide presionar a fondo el freno antes de presionar el botón.", "fuente": {"id": "OM2014v3", "pagina": 149}},
+    "keyless": {"tipo": "documentada", "texto": "Con llave inteligente: el sistema puede no funcionar si la pila de la llave está agotada o hay interferencia. El manual describe un procedimiento de respaldo: sostener la llave en la posición de respaldo de la columna de dirección, presionar el freno y el botón.", "fuente": {"id": "OM2014v3", "pagina": 149}}
+   },
+   "fusibles": [
+    {"id": "M-F13", "por": "Protege el relevador del motor de arranque.", "cuando": ["no-gira"]},
+    {"id": "M-R10", "por": "Relevador del motor de arranque.", "cuando": ["no-gira"]},
+    {"id": "P-F78", "por": "Interruptor de encendido / botón de arranque.", "cuando": ["no-gira", "sin-energia"]},
+    {"id": "M-F21", "por": "Interruptor de luces de freno (el arranque con botón requiere el freno).", "cuando": ["freno", "no-gira"]},
+    {"id": "P-F59", "por": "Transceptor del antirrobo pasivo (PATS).", "cuando": ["pats", "gira-no-enciende"]},
+    {"id": "P-F56", "por": "Alimentación de la bomba de combustible.", "cuando": ["gira-no-enciende"]},
+    {"id": "M-F33", "por": "Bobinas de encendido.", "cuando": ["gira-no-enciende"]},
+    {"id": "M-F34", "por": "Inyectores.", "cuando": ["gira-no-enciende"]},
+    {"id": "M-F12", "por": "Fusible del relevador de control del motor.", "cuando": ["gira-no-enciende", "no-gira"]},
+    {"id": "M-R14", "por": "Relevador de control del motor.", "cuando": ["gira-no-enciende", "no-gira"]},
+    {"id": "M-F36", "por": "Módulo de control del motor.", "cuando": ["gira-no-enciende"]},
+    {"id": "M-R16", "por": "Relevador de encendido 15.", "cuando": ["no-gira", "gira-no-enciende"]},
+    {"id": "C-F2", "por": "Módulo de vehículo sin llave.", "cuando": ["keyless"]}
+   ],
+   "comprobaciones": [
+    "Revise visualmente que las terminales de la batería estén firmes y limpias (sin tocar ambas a la vez con herramientas metálicas).",
+    "Pruebe con otra llave programada si sospecha del antirrobo.",
+    "Con el auto apagado, revise visualmente los fusibles listados: un fusible fundido muestra el alambre interior roto."
+   ],
+   "tecnico": [
+    "Si el motor no gira y la batería está bien: diagnóstico del circuito de arranque.",
+    "Si el testigo antirrobo parpadea con todas las llaves: diagnóstico del PATS con equipo especializado.",
+    "Fusibles de cartucho de alta corriente (F12, F13): el manual indica desconectar la batería antes de darles servicio."
+   ],
+   "prohibido": "No puentee el relevador de arranque ni conecte cables directo al motor de arranque."
+  },
+  {
+   "id": "radio",
+   "titulo": "No enciende la radio",
+   "icono": "radio",
+   "intro": "Separa falta de alimentación de la radio de problemas de sonido.",
+   "preguntas": [
+    {"id": "q1", "texto": "¿La radio/pantalla no enciende en absoluto?", "si": {"agrega": ["sin-alimentacion"], "sig": "q3"}, "no": {"sig": "q2"}, "nose": {"sig": "q3"}},
+    {"id": "q2", "texto": "¿Enciende pero no se oye sonido?", "si": {"agrega": ["sin-sonido"], "sig": "q3"}, "no": {"sig": "q3"}, "nose": {"sig": "q3"}},
+    {"id": "q3", "texto": "¿También fallan el botón de intermitentes de emergencia o el botón de seguros?", "ayuda": "F79 alimenta radio, interruptor de intermitentes de emergencia e interruptor de seguros.",
+     "si": {"agrega": ["f79"], "sig": "q4"}, "no": {"sig": "q4"}, "nose": {"sig": "q4"}},
+    {"id": "q4", "texto": "¿También fallan el tablero de instrumentos, SYNC o el control del clima?", "ayuda": "F88 alimenta a F67, F69, F71 y F79.",
+     "si": {"agrega": ["f88"], "sig": "q5"}, "no": {"sig": "q5"}, "nose": {"sig": "q5"}},
+    {"id": "q5", "texto": "¿El problema ocurre solo mientras el auto está encendido por arranque remoto?", "si": {"agrega": ["remoto"], "sig": null}, "no": {"sig": null}, "nose": {"sig": null}}
+   ],
+   "hipotesis": {
+    "sin-alimentacion": {"tipo": "hipotesis", "texto": "Falta de alimentación a la radio: revise los fusibles de radio."},
+    "sin-sonido": {"tipo": "hipotesis", "texto": "La radio enciende sin sonido: podría ser el amplificador (si está equipado), cableado o bocinas."},
+    "f79": {"tipo": "hipotesis", "texto": "Varias funciones que comparten F79 fallan a la vez: F79 es un candidato fuerte para revisar."},
+    "f88": {"tipo": "hipotesis", "texto": "Fallan varias funciones alimentadas por F88: revise F88."},
+    "remoto": {"tipo": "documentada", "texto": "Normal: durante el arranque remoto la radio no se enciende automáticamente.", "fuente": {"id": "OM2014v3", "pagina": 64}}
+   },
+   "fusibles": [
+    {"id": "P-F79", "por": "Radio, DVD de navegación, interruptor de emergencia y de seguros."},
+    {"id": "P-F85", "por": "Incluye alimentación de la radio."},
+    {"id": "P-F88", "por": "Alimenta a F67, F69, F71 y F79."},
+    {"id": "P-F67", "por": "SYNC, pantalla multifunción, GPS."},
+    {"id": "C-F10", "por": "Amplificador de audio (si está equipado).", "cuando": ["sin-sonido"]}
+   ],
+   "comprobaciones": ["Revise el volumen y la fuente de audio seleccionada.", "Con el auto apagado, inspeccione visualmente los fusibles listados."],
+   "tecnico": ["Si los fusibles están bien: diagnóstico del radio/SYNC y su cableado."]
+  },
+  {
+   "id": "seguros",
+   "titulo": "No funcionan los seguros eléctricos",
+   "icono": "lock",
+   "intro": "Identifica si la falla es general, solo de la puerta del conductor o solo del control.",
+   "preguntas": [
+    {"id": "q1", "texto": "¿Fallan los seguros de TODAS las puertas?", "si": {"agrega": ["central"], "sig": "q3"}, "no": {"sig": "q2"}, "nose": {"sig": "q3"}},
+    {"id": "q2", "texto": "¿Falla solo el desbloqueo de la puerta del conductor?", "si": {"agrega": ["conductor"], "sig": "q3"}, "no": {"agrega": ["una-puerta"], "sig": "q3"}, "nose": {"sig": "q3"}},
+    {"id": "q3", "texto": "¿Funcionan con el botón interior pero NO con el control remoto?", "si": {"agrega": ["control"], "sig": "q4"}, "no": {"sig": "q4"}, "nose": {"sig": "q4"}},
+    {"id": "q4", "texto": "¿Tampoco abre la cajuela con el botón de liberación?", "si": {"agrega": ["cajuela"], "sig": null}, "no": {"sig": null}, "nose": {"sig": null}}
+   ],
+   "hipotesis": {
+    "central": {"tipo": "hipotesis", "texto": "Falla general: revise alimentación y tierra del bloqueo central."},
+    "conductor": {"tipo": "hipotesis", "texto": "Solo la puerta del conductor: revise alimentación y tierra del desbloqueo del conductor."},
+    "una-puerta": {"tipo": "hipotesis", "texto": "Falla en una sola puerta: suele ser el actuador de esa chapa o su cableado. En autos con módulo de control de puerta (DCU) revise el fusible de esa puerta en la cajuela."},
+    "control": {"tipo": "hipotesis", "texto": "Solo falla el control: revise primero la pila del control; después el receptor de radiofrecuencia."},
+    "cajuela": {"tipo": "hipotesis", "texto": "No abre la cajuela: revise su fusible de liberación."}
+   },
+   "fusibles": [
+    {"id": "P-F70", "por": "Alimentación del bloqueo/desbloqueo central.", "cuando": ["central"]},
+    {"id": "P-F83", "por": "Tierra del bloqueo central.", "cuando": ["central"]},
+    {"id": "P-F66", "por": "Alimentación del desbloqueo del conductor.", "cuando": ["conductor"]},
+    {"id": "P-F84", "por": "Tierra del desbloqueo del conductor.", "cuando": ["conductor"]},
+    {"id": "P-F79", "por": "Interruptor de seguros de puertas.", "cuando": ["central"]},
+    {"id": "P-F81", "por": "Receptor de radiofrecuencia.", "cuando": ["control"]},
+    {"id": "P-F65", "por": "Liberación de la cajuela.", "cuando": ["cajuela"]},
+    {"id": "C-F4", "por": "Módulo de puerta delantera izquierda (con DCU).", "cuando": ["una-puerta", "conductor"]},
+    {"id": "C-F5", "por": "Módulo de puerta delantera derecha (con DCU).", "cuando": ["una-puerta"]},
+    {"id": "C-F6", "por": "Módulo de puerta trasera izquierda (con DCU).", "cuando": ["una-puerta"]},
+    {"id": "C-F7", "por": "Módulo de puerta trasera derecha (con DCU).", "cuando": ["una-puerta"]}
+   ],
+   "comprobaciones": ["Cambie la pila del control si solo falla a distancia.", "Pruebe con la llave en la chapa del conductor."],
+   "tecnico": ["Actuadores de chapa y cableado dentro de la puerta requieren desmontar paneles: técnico."]
+  },
+  {
+   "id": "limpiadores",
+   "titulo": "No funcionan los limpiaparabrisas",
+   "icono": "wiper",
+   "intro": "Limpiadores delanteros, trasero y lavaparabrisas tienen protecciones distintas.",
+   "preguntas": [
+    {"id": "q1", "texto": "¿Fallan los limpiadores DELANTEROS?", "si": {"agrega": ["delantero"], "sig": "q2"}, "no": {"sig": "q2"}, "nose": {"sig": "q2"}},
+    {"id": "q2", "texto": "¿Falla el limpiador TRASERO (versión hatchback)?", "si": {"agrega": ["trasero"], "sig": "q3"}, "no": {"sig": "q3"}, "nose": {"sig": "q3"}},
+    {"id": "q3", "texto": "¿No sale líquido del lavaparabrisas?", "si": {"agrega": ["lavador"], "sig": "q4"}, "no": {"sig": "q4"}, "nose": {"sig": "q4"}},
+    {"id": "q4", "texto": "¿Se escucha el motor zumbar pero las plumas no se mueven?", "si": {"agrega": ["mecanico"], "sig": null}, "no": {"sig": null}, "nose": {"sig": null}}
+   ],
+   "hipotesis": {
+    "delantero": {"tipo": "hipotesis", "texto": "Revise el fusible del motor de limpiadores delanteros."},
+    "trasero": {"tipo": "hipotesis", "texto": "Revise el fusible y el relevador del limpiador trasero."},
+    "lavador": {"tipo": "hipotesis", "texto": "Primero verifique el nivel de líquido; después los fusibles de la bomba (alimentación y tierra)."},
+    "mecanico": {"tipo": "hipotesis", "texto": "Si el motor funciona pero las plumas no se mueven, es probable una falla mecánica del mecanismo (no eléctrica): técnico."}
+   },
+   "fusibles": [
+    {"id": "M-F18", "por": "Motor del limpiaparabrisas delantero.", "cuando": ["delantero"]},
+    {"id": "M-F42", "por": "Limpiador trasero.", "cuando": ["trasero"]},
+    {"id": "M-R5", "por": "Relevador del limpiador trasero.", "cuando": ["trasero"]},
+    {"id": "P-F77", "por": "Bomba del lavaparabrisas.", "cuando": ["lavador"]},
+    {"id": "P-F82", "por": "Tierra de la bomba del lavaparabrisas.", "cuando": ["lavador"]}
+   ],
+   "comprobaciones": ["Verifique el nivel del depósito de líquido.", "Con hielo o nieve, libere las plumas antes de accionarlas."],
+   "tecnico": ["Varillaje o motor dañados: técnico."]
+  },
+  {
+   "id": "clima",
+   "titulo": "No funciona el aire acondicionado",
+   "icono": "ac",
+   "intro": "Separa falla del ventilador (no sale aire) de falla de enfriamiento.",
+   "preguntas": [
+    {"id": "q1", "texto": "¿Sale aire por las rejillas en todas las velocidades?", "si": {"sig": "q2"}, "no": {"agrega": ["soplador"], "sig": "q3"}, "nose": {"sig": "q2"}},
+    {"id": "q2", "texto": "¿Sale aire pero NO enfría?", "si": {"agrega": ["no-enfria"], "sig": "q3"}, "no": {"sig": "q3"}, "nose": {"sig": "q3"}},
+    {"id": "q3", "texto": "¿El panel de control del clima (botones/pantalla) no enciende?", "si": {"agrega": ["panel"], "sig": null}, "no": {"sig": null}, "nose": {"sig": null}}
+   ],
+   "hipotesis": {
+    "soplador": {"tipo": "hipotesis", "texto": "No sale aire: revise fusible y relevador del soplador. Si funciona solo en algunas velocidades, la falla suele estar en el control de velocidad (técnico)."},
+    "no-enfria": {"tipo": "hipotesis", "texto": "Sale aire pero no enfría: revise fusible y relevador del clutch del compresor. Falta de refrigerante requiere técnico con equipo."},
+    "panel": {"tipo": "hipotesis", "texto": "Panel apagado: revise fusibles del control de clima."}
+   },
+   "fusibles": [
+    {"id": "M-F10", "por": "Motor del ventilador de calefacción.", "cuando": ["soplador"]},
+    {"id": "M-R13", "por": "Relevador del soplador.", "cuando": ["soplador"]},
+    {"id": "M-F27", "por": "Clutch del compresor de A/C.", "cuando": ["no-enfria"]},
+    {"id": "M-R11", "por": "Relevador del clutch de A/C.", "cuando": ["no-enfria"]},
+    {"id": "P-F71", "por": "Control de calefacción / temperatura automática.", "cuando": ["panel", "soplador"]},
+    {"id": "P-F85", "por": "Módulo de calefacción (A/C manual) y sensores.", "cuando": ["panel"]},
+    {"id": "P-F88", "por": "Alimenta a F71.", "cuando": ["panel"]}
+   ],
+   "comprobaciones": ["Verifique que el botón A/C esté activado y la temperatura en frío."],
+   "tecnico": ["Carga o fugas de refrigerante: solo técnico con equipo certificado.", "F10 es fusible de cartucho de alta corriente: desconecte la batería antes de darle servicio (manual)."]
+  },
+  {
+   "id": "luces",
+   "titulo": "No encienden las luces",
+   "icono": "light",
+   "intro": "Las tablas de fusibles solo documentan algunos circuitos de iluminación.",
+   "nota": "Las tablas del manual no listan fusibles específicos para direccionales, luces de posición o calaveras traseras; para esas luces revise focos o consulte a un técnico.",
+   "preguntas": [
+    {"id": "q1", "texto": "¿Fallan AMBAS luces bajas?", "si": {"agrega": ["bajas"], "sig": "q2"}, "no": {"sig": "q2"}, "nose": {"sig": "q2"}},
+    {"id": "q2", "texto": "¿Falla solo UN faro?", "si": {"agrega": ["un-foco"], "sig": "q3"}, "no": {"sig": "q3"}, "nose": {"sig": "q3"}},
+    {"id": "q3", "texto": "¿No encienden las luces de freno?", "si": {"agrega": ["freno"], "sig": "q4"}, "no": {"sig": "q4"}, "nose": {"sig": "q4"}},
+    {"id": "q4", "texto": "¿No encienden las luces de reversa?", "si": {"agrega": ["reversa"], "sig": "q5"}, "no": {"sig": "q5"}, "nose": {"sig": "q5"}},
+    {"id": "q5", "texto": "¿No encienden los faros de niebla (si está equipado)?", "si": {"agrega": ["niebla"], "sig": null}, "no": {"sig": null}, "nose": {"sig": null}}
+   ],
+   "hipotesis": {
+    "bajas": {"tipo": "hipotesis", "texto": "Si fallan ambas luces bajas a la vez, conviene revisar primero su fusible de alimentación."},
+    "un-foco": {"tipo": "hipotesis", "texto": "Un solo faro apagado suele indicar foco fundido o conector, no fusible."},
+    "freno": {"tipo": "hipotesis", "texto": "Luces de freno: revise el fusible del interruptor de luces de freno y los focos. Circula con precaución."},
+    "reversa": {"tipo": "hipotesis", "texto": "Revise el fusible de luces de reversa."},
+    "niebla": {"tipo": "hipotesis", "texto": "Revise el fusible de faros de niebla."}
+   },
+   "fusibles": [
+    {"id": "P-F74", "por": "Alimentación de luces bajas.", "cuando": ["bajas"]},
+    {"id": "M-F23", "por": "Módulo del interruptor de luces y bobinas de relevadores.", "cuando": ["bajas"]},
+    {"id": "M-F39", "por": "Módulo de control de faros (solo Focus ST).", "cuando": ["bajas"]},
+    {"id": "M-F21", "por": "Interruptor de luces de freno.", "cuando": ["freno"]},
+    {"id": "P-F76", "por": "Luces de reversa.", "cuando": ["reversa"]},
+    {"id": "P-F75", "por": "Faros de niebla.", "cuando": ["niebla"]}
+   ],
+   "comprobaciones": ["Pida a alguien que verifique las luces mientras usted acciona los controles.", "Cambie focos solo con el modelo indicado en el manual."],
+   "tecnico": ["Faros HID/xenón (Focus ST): alto voltaje, solo técnico."]
+  },
+  {
+   "id": "ventanas",
+   "titulo": "No funcionan las ventanas eléctricas",
+   "icono": "window",
+   "intro": "El Focus 2014 tiene dos arquitecturas: con o sin módulo de control de puerta (DCU). Los fusibles cambian según la versión.",
+   "preguntas": [
+    {"id": "q1", "texto": "¿Intenta usarlas mientras el auto está encendido por arranque remoto?", "si": {"agrega": ["remoto"], "sig": null}, "no": {"sig": "q2"}, "nose": {"sig": "q2"}},
+    {"id": "q2", "texto": "¿Fallan las DOS ventanas delanteras?", "si": {"agrega": ["delanteras"], "sig": "q3"}, "no": {"sig": "q3"}, "nose": {"sig": "q3"}},
+    {"id": "q3", "texto": "¿Fallan las DOS ventanas traseras?", "si": {"agrega": ["traseras"], "sig": "q4"}, "no": {"sig": "q4"}, "nose": {"sig": "q4"}},
+    {"id": "q4", "texto": "¿Falla solo UNA ventana?", "si": {"agrega": ["una"], "sig": null}, "no": {"sig": null}, "nose": {"sig": null}}
+   ],
+   "hipotesis": {
+    "remoto": {"tipo": "documentada", "texto": "Normal: durante el arranque remoto las ventanas eléctricas no funcionan.", "fuente": {"id": "OM2014v3", "pagina": 64}},
+    "delanteras": {"tipo": "hipotesis", "texto": "Sin DCU: revise F46 (motor). Con DCU: revise los fusibles de los módulos de puerta delanteros (cajuela)."},
+    "traseras": {"tipo": "hipotesis", "texto": "Sin DCU: revise F14 (motor). Con DCU: fusibles de módulos de puerta traseros (cajuela)."},
+    "una": {"tipo": "hipotesis", "texto": "Una sola ventana: suele ser el interruptor, el motor o el regulador de esa puerta. Con DCU, revise el fusible de esa puerta."}
+   },
+   "fusibles": [
+    {"id": "M-F46", "por": "Ventanas delanteras (sin DCU).", "cuando": ["delanteras"]},
+    {"id": "M-F14", "por": "Ventanas traseras (sin DCU).", "cuando": ["traseras"]},
+    {"id": "C-F4", "por": "Módulo puerta delantera izquierda (con DCU).", "cuando": ["delanteras", "una"]},
+    {"id": "C-F5", "por": "Módulo puerta delantera derecha (con DCU).", "cuando": ["delanteras", "una"]},
+    {"id": "C-F6", "por": "Módulo puerta trasera izquierda (con DCU).", "cuando": ["traseras", "una"]},
+    {"id": "C-F7", "por": "Módulo puerta trasera derecha (con DCU).", "cuando": ["traseras", "una"]}
+   ],
+   "comprobaciones": ["Verifique que el botón de bloqueo de ventanas del conductor no esté activado."],
+   "tecnico": ["Motor o regulador dañado: desmontaje de panel de puerta, técnico.", "F14 y F46 son cartuchos/fusibles de mayor corriente: siga el procedimiento del manual."]
+  },
+  {
+   "id": "claxon",
+   "titulo": "No funciona el claxon",
+   "icono": "horn",
+   "intro": "El claxon tiene fusible y relevador en el compartimiento del motor.",
+   "preguntas": [
+    {"id": "q1", "texto": "¿El claxon no suena en absoluto?", "si": {"agrega": ["sin-claxon"], "sig": "q2"}, "no": {"agrega": ["intermitente"], "sig": "q2"}, "nose": {"sig": "q2"}},
+    {"id": "q2", "texto": "¿También fallan otros controles del volante (audio, crucero)?", "si": {"agrega": ["volante"], "sig": null}, "no": {"sig": null}, "nose": {"sig": null}}
+   ],
+   "hipotesis": {
+    "sin-claxon": {"tipo": "hipotesis", "texto": "Revise el fusible y el relevador del claxon."},
+    "intermitente": {"tipo": "hipotesis", "texto": "Falla intermitente: posible contacto en el volante o conexión de la bocina. Técnico."},
+    "volante": {"tipo": "hipotesis", "texto": "Fallan varios controles del volante: revise el fusible del módulo del volante. La zona del volante contiene la bolsa de aire: no la desarme."}
+   },
+   "fusibles": [
+    {"id": "M-F20", "por": "Claxon.", "cuando": ["sin-claxon", "intermitente"]},
+    {"id": "M-R2", "por": "Relevador del claxon.", "cuando": ["sin-claxon", "intermitente"]},
+    {"id": "P-F72", "por": "Módulo del volante.", "cuando": ["volante"]}
+   ],
+   "comprobaciones": ["Inspección visual de fusible F20."],
+   "tecnico": ["Cualquier trabajo dentro del volante (bolsa de aire): solo técnico."]
+  },
+  {
+   "id": "accesorios",
+   "titulo": "Problemas con accesorios eléctricos",
+   "icono": "plug",
+   "intro": "Toma de 12 V, quemacocos, asientos con calefacción, desempañador, espejos y luz interior.",
+   "preguntas": [
+    {"id": "q1", "texto": "¿No funciona el encendedor o la toma de corriente de 12 V?", "si": {"agrega": ["toma"], "sig": "q2"}, "no": {"sig": "q2"}, "nose": {"sig": "q2"}},
+    {"id": "q2", "texto": "¿No funciona el desempañador del medallón trasero?", "si": {"agrega": ["desempanador"], "sig": "q3"}, "no": {"sig": "q3"}, "nose": {"sig": "q3"}},
+    {"id": "q3", "texto": "¿No funcionan los asientos con calefacción (si está equipado)?", "si": {"agrega": ["asientos"], "sig": "q4"}, "no": {"sig": "q4"}, "nose": {"sig": "q4"}},
+    {"id": "q4", "texto": "¿No funciona el quemacocos (si está equipado)?", "si": {"agrega": ["quemacocos"], "sig": "q5"}, "no": {"sig": "q5"}, "nose": {"sig": "q5"}},
+    {"id": "q5", "texto": "¿No funcionan los espejos eléctricos?", "si": {"agrega": ["espejos"], "sig": "q6"}, "no": {"sig": "q6"}, "nose": {"sig": "q6"}},
+    {"id": "q6", "texto": "¿No enciende la luz interior o de guantera?", "si": {"agrega": ["luz-interior"], "sig": "q7"}, "no": {"sig": "q7"}, "nose": {"sig": "q7"}},
+    {"id": "q7", "texto": "¿Un escáner OBD-II no enciende al conectarlo?", "si": {"agrega": ["obd"], "sig": null}, "no": {"sig": null}, "nose": {"sig": null}}
+   ],
+   "hipotesis": {
+    "toma": {"tipo": "hipotesis", "texto": "Toma de 12 V: revise su fusible; un objeto metálico (moneda) dentro de la toma puede fundirlo."},
+    "desempanador": {"tipo": "hipotesis", "texto": "Revise fusible y relevador del desempañador trasero; las líneas del vidrio también pueden estar cortadas."},
+    "asientos": {"tipo": "hipotesis", "texto": "Revise fusibles de calefacción de asientos (cajuela) y del interruptor."},
+    "quemacocos": {"tipo": "hipotesis", "texto": "Revise los fusibles del quemacocos."},
+    "espejos": {"tipo": "hipotesis", "texto": "Sin DCU: fusibles de espejos en el compartimiento del motor. Con DCU: fusibles de módulos de puerta."},
+    "luz-interior": {"tipo": "hipotesis", "texto": "Revise el fusible de luz interior y el foco."},
+    "obd": {"tipo": "hipotesis", "texto": "Revise el fusible del conector de diagnóstico."}
+   },
+   "fusibles": [
+    {"id": "P-F61", "por": "Encendedor y toma de corriente.", "cuando": ["toma"]},
+    {"id": "M-F9", "por": "Desempañador trasero.", "cuando": ["desempanador"]},
+    {"id": "M-R15", "por": "Relevador del desempañador trasero.", "cuando": ["desempanador"]},
+    {"id": "C-F34", "por": "Calefacción asiento del conductor.", "cuando": ["asientos"]},
+    {"id": "C-F35", "por": "Calefacción asiento del pasajero.", "cuando": ["asientos"]},
+    {"id": "P-F85", "por": "Interruptor de asientos con calefacción y quemacocos.", "cuando": ["asientos", "quemacocos"]},
+    {"id": "P-F80", "por": "Alimentación del quemacocos.", "cuando": ["quemacocos"]},
+    {"id": "M-F25", "por": "Espejos eléctricos (sin DCU).", "cuando": ["espejos"]},
+    {"id": "M-F47", "por": "Espejos con calefacción (sin DCU).", "cuando": ["espejos"]},
+    {"id": "P-F60", "por": "Luz interior, luz de guantera.", "cuando": ["luz-interior"]},
+    {"id": "P-F73", "por": "Conector de diagnóstico.", "cuando": ["obd"]}
+   ],
+   "comprobaciones": ["Retire objetos ajenos de la toma de 12 V antes de cambiar el fusible.", "No conecte aparatos que excedan la capacidad de la toma."],
+   "tecnico": ["Si un fusible se funde de nuevo al reemplazarlo hay un corto circuito: técnico."]
+  }
+ ]
+}

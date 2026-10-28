@@ -1,0 +1,50 @@
+{
+ "seguridad": [
+  {"nivel": "alto", "titulo": "Apague el vehículo", "texto": "Apague el motor y todos los accesorios, y retire la llave (o aleje la llave inteligente) antes de manipular fusibles."},
+  {"nivel": "alto", "titulo": "Fusibles de alta corriente: desconecte la batería", "texto": "El manual Ford indica desconectar siempre la batería antes de dar servicio a los fusibles de alta corriente de la caja del motor, y colocar la tapa antes de reconectarla para reducir el riesgo de descarga eléctrica."},
+  {"nivel": "alto", "titulo": "Mismo amperaje, siempre", "texto": "Reemplace un fusible solo por otro del amperaje especificado. Uno de mayor capacidad puede dañar severamente el cableado y provocar un incendio (advertencia del manual)."},
+  {"nivel": "alto", "titulo": "Nunca puentee", "texto": "No sustituya un fusible por alambre, papel aluminio u otro conductor, ni puentee relevadores."},
+  {"nivel": "alto", "titulo": "Bolsas de aire", "texto": "No manipule el módulo ni el cableado de bolsas de aire (conectores amarillos, volante, F86). Requiere personal capacitado."},
+  {"nivel": "medio", "titulo": "Si se funde otra vez", "texto": "Si un fusible nuevo se funde de inmediato hay un corto circuito. No coloque otro: acuda con un técnico."},
+  {"nivel": "medio", "titulo": "Batería", "texto": "No toque ambas terminales con herramientas metálicas, use protección ocular y evite chispas cerca de la batería."},
+  {"nivel": "medio", "titulo": "Al reconectar la batería", "texto": "Consulte el capítulo 'Changing the Vehicle Battery' del manual: algunos sistemas pueden requerir reajustes."},
+  {"nivel": "info", "titulo": "Cuándo acudir a un profesional", "texto": "Fallas que regresan, olor a quemado, cables calientes, sistemas de alta corriente, bolsas de aire, faros HID o cualquier duda."}
+ ],
+ "niveles": {
+  "sencillo": "Comprobaciones sencillas: inspección visual, cambio de un mini fusible del mismo amperaje con el auto apagado, revisión de pila del control.",
+  "especializado": "Requiere equipo o capacitación: escáner, multímetro en circuitos activos, fusibles de cartucho de alta corriente, bolsas de aire, desmontaje de paneles."
+ },
+ "guia": [
+  {"titulo": "¿Qué es un fusible?", "texto": "Es un elemento de protección con un filamento calibrado. Si la corriente excede su capacidad, el filamento se funde y abre el circuito para evitar que el cableado se sobrecaliente. Un fusible fundido muestra el alambre interior roto."},
+  {"titulo": "¿Qué es un relevador?", "texto": "Es un interruptor eléctrico controlado por una corriente pequeña (bobina) que conecta o desconecta un circuito de mayor corriente, por ejemplo el motor de arranque o el claxon. No se funde como un fusible; puede fallar por desgaste."},
+  {"titulo": "Tipos de fusible en el Focus 2014", "texto": "La caja del motor usa mini fusibles (marcados * en el manual) y fusibles de cartucho tipo J-case (marcados **). Los paneles del habitáculo y de la cajuela usan mini fusibles (dato de StartMyCar; el manual no lo indica en esas tablas)."},
+  {"titulo": "Cómo identificar el amperaje", "texto": "El número está impreso en el fusible y además tiene un color estándar. Tabla de colores para mini fusibles según el manual:"}
+ ],
+ "colores": [
+  {"amp": "2A", "mini": "Gris", "cartucho": null, "hex": "#9aa0a6"},
+  {"amp": "3A", "mini": "Violeta", "cartucho": null, "hex": "#8e5bd6"},
+  {"amp": "4A", "mini": "Rosa", "cartucho": null, "hex": "#f48fb1"},
+  {"amp": "5A", "mini": "Marrón claro (tan)", "cartucho": null, "hex": "#c8a26b"},
+  {"amp": "7.5A", "mini": "Café", "cartucho": null, "hex": "#7b4a2a"},
+  {"amp": "10A", "mini": "Rojo", "cartucho": null, "hex": "#d93025"},
+  {"amp": "15A", "mini": "Azul", "cartucho": null, "hex": "#1a73e8"},
+  {"amp": "20A", "mini": "Amarillo", "cartucho": "Azul", "hex": "#f9c80e"},
+  {"amp": "25A", "mini": "Natural (incoloro)", "cartucho": "Natural", "hex": "#e8e4d8"},
+  {"amp": "30A", "mini": "Verde", "cartucho": "Rosa", "hex": "#2e9d4f"},
+  {"amp": "40A", "mini": null, "cartucho": "Verde", "hex": "#2e9d4f"},
+  {"amp": "50A", "mini": null, "cartucho": "Rojo", "hex": "#d93025"},
+  {"amp": "60A", "mini": null, "cartucho": "Amarillo", "hex": "#f9c80e"}
+ ],
+ "coloresFuente": {"id": "OM2014v3", "pagina": 223},
+ "fotos": {
+  "nota": "No se incluyen fotografías: no se encontraron fotos del Focus 2014 con licencia que permita redistribuirlas. Puede tomar sus propias fotos y agregarlas en la app (se guardan solo en su teléfono).",
+  "espacios": [
+   {"id": "ubicacion", "titulo": "Vista general de ubicación"},
+   {"id": "cerrada", "titulo": "Caja cerrada"},
+   {"id": "abierta", "titulo": "Caja abierta"},
+   {"id": "fusibles", "titulo": "Vista de fusibles"},
+   {"id": "orientacion", "titulo": "Referencia de orientación"}
+  ],
+  "incluidas": []
+ }
+}

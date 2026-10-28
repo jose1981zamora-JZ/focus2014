@@ -1,0 +1,29 @@
+{
+ "fuentes": [
+  {
+   "id": "OM2014v3",
+   "titulo": "2014 Focus Owner's Guide (versión 3, 3ª impresión, febrero 2014, EE. UU.) — Ford Motor Company",
+   "tipo": "Oficial (fabricante)",
+   "url": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/2014-Focus-Owners-Manual-version-3_om_EN-US_03_2014.pdf",
+   "consulta": "El PDF oficial no pudo abrirse directamente desde el entorno de desarrollo. Se consultó el texto de la misma edición (v.3, 3rd Printing) en manualsdir.com: capítulo Fuses (págs. impresas 223–232) y Keys and Remote Control / Remote Start (págs. 63–65).",
+   "espejo": "https://www.manualsdir.com/manuals/602021/ford-2014-focus-v3.html?page=226",
+   "prioridad": 1
+  },
+  {
+   "id": "SMC2014",
+   "titulo": "2014 Ford Focus fuse box diagram — StartMyCar",
+   "tipo": "Secundaria (referencia de contraste)",
+   "url": "https://www.startmycar.com/ford/focus/info/fusebox/2014",
+   "consulta": "Usada solo para contrastar datos y para el tipo de fusible (Mini) en los paneles del habitáculo y de cajuela. No se copiaron imágenes ni diseño.",
+   "prioridad": 2
+  },
+  {
+   "id": "MZ2014ES",
+   "titulo": "Ford Focus 2014 — Manual del propietario (español), manualzz",
+   "tipo": "Complementaria",
+   "url": "https://manualzz.com/doc/65135912/ford-focus-2014-el-manual-del-propietario",
+   "consulta": "NO CONSULTADA: el sitio no fue accesible desde el entorno de desarrollo. Las diferencias del mercado mexicano no están verificadas.",
+   "prioridad": 3
+  }
+ ]
+}

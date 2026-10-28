@@ -1,0 +1,73 @@
+{
+ "cajas": [
+  {
+   "id": "M",
+   "nombre": "Compartimiento del motor",
+   "nombreManual": "Power distribution box (Caja de distribución de potencia)",
+   "ubicacion": "En el compartimiento del motor. Contiene fusibles de alta corriente que protegen los sistemas eléctricos principales.",
+   "acceso": "Retire la tapa de la caja. El manual indica desconectar siempre la batería antes de dar servicio a los fusibles de alta corriente y colocar de nuevo la tapa antes de reconectar la batería.",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 224
+   },
+   "secciones": [
+    {
+     "id": "cartucho",
+     "titulo": "Fusibles de cartucho (J-case)",
+     "cols": 4
+    },
+    {
+     "id": "mini",
+     "titulo": "Mini fusibles",
+     "cols": 6
+    },
+    {
+     "id": "relevadores",
+     "titulo": "Relevadores",
+     "cols": 4
+    }
+   ]
+  },
+  {
+   "id": "P",
+   "nombre": "Compartimiento de pasajeros",
+   "nombreManual": "Passenger compartment fuse panel (Panel de fusibles del habitáculo)",
+   "ubicacion": "Lado derecho del habitáculo, debajo de la guantera.",
+   "acceso": "Puede ser necesario retirar un panel de vestidura para tener acceso.",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 228
+   },
+   "secciones": [
+    {
+     "id": "mini",
+     "titulo": "Mini fusibles",
+     "cols": 6
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "nombre": "Compartimiento de equipaje (cajuela)",
+   "nombreManual": "Luggage compartment fuse panel (Panel de fusibles del compartimiento de equipaje)",
+   "ubicacion": "En el compartimiento de equipaje, detrás de la salpicadera (pozo de rueda) del lado izquierdo.",
+   "acceso": "Retire la tapa del panel de fusibles. Muchas posiciones están vacías; solo se usan según el equipamiento del vehículo.",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 230
+   },
+   "secciones": [
+    {
+     "id": "mini",
+     "titulo": "Mini fusibles",
+     "cols": 8
+    },
+    {
+     "id": "relevadores",
+     "titulo": "Relevadores",
+     "cols": 6
+    }
+   ]
+  }
+ ]
+}

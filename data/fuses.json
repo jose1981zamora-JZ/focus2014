@@ -1,0 +1,4249 @@
+{
+ "version": "1.0.0",
+ "vehiculo": "Ford Focus 2014 (Mk3, C346) — mercado EE. UU., manual v.3",
+ "actualizado": "2026-10-28",
+ "registros": [
+  {
+   "id": "M-F7",
+   "caja": "M",
+   "numero": "F7",
+   "seccion": "cartucho",
+   "orden": 0,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "40A",
+   "tipo": "Cartucho (J-case / cartridge)",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Anti-lock brake system/Electronic stability program pump",
+   "funcion_es": "Bomba del sistema de frenos antibloqueo (ABS) / control electrónico de estabilidad (ESP)",
+   "palabras": [
+    "abs",
+    "frenos",
+    "estabilidad",
+    "esp",
+    "bomba",
+    "brake"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F8",
+   "caja": "M",
+   "numero": "F8",
+   "seccion": "cartucho",
+   "orden": 1,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "30A",
+   "tipo": "Cartucho (J-case / cartridge)",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Electronic stability program valve",
+   "funcion_es": "Válvula del control electrónico de estabilidad (ESP)",
+   "palabras": [
+    "esp",
+    "estabilidad",
+    "valvula",
+    "abs",
+    "frenos"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F9",
+   "caja": "M",
+   "numero": "F9",
+   "seccion": "cartucho",
+   "orden": 2,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "30A",
+   "tipo": "Cartucho (J-case / cartridge)",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Heated rear window",
+   "funcion_es": "Desempañador / medallón trasero térmico",
+   "palabras": [
+    "desempañador",
+    "medallon",
+    "trasero",
+    "vidrio",
+    "trasero",
+    "calefaccion",
+    "defroster"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F10",
+   "caja": "M",
+   "numero": "F10",
+   "seccion": "cartucho",
+   "orden": 3,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "40A",
+   "tipo": "Cartucho (J-case / cartridge)",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Heater blower motor",
+   "funcion_es": "Motor del ventilador de calefacción (soplador)",
+   "palabras": [
+    "ventilador",
+    "soplador",
+    "blower",
+    "calefaccion",
+    "aire",
+    "acondicionado",
+    "clima",
+    "ventilacion"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F11",
+   "caja": "M",
+   "numero": "F11",
+   "seccion": "cartucho",
+   "orden": 4,
+   "clase": "fusible",
+   "estado": "repuesto",
+   "amperaje": "30A",
+   "tipo": "Cartucho (J-case / cartridge)",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Not used (spare)",
+   "funcion_es": "No utilizado (repuesto)",
+   "palabras": [
+    "repuesto",
+    "spare"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "discrepancia",
+   "observaciones": "StartMyCar lo describe como \"Body control module KL30 supply\" (alimentación KL30 del BCM). El manual oficial v.3 indica \"Not used (spare)\". Se conserva el dato oficial.",
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F12",
+   "caja": "M",
+   "numero": "F12",
+   "seccion": "cartucho",
+   "orden": 5,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "30A",
+   "tipo": "Cartucho (J-case / cartridge)",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Engine control relay fuse",
+   "funcion_es": "Fusible del relevador de control del motor",
+   "palabras": [
+    "motor",
+    "computadora",
+    "pcm",
+    "relevador",
+    "control",
+    "motor",
+    "arranque"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F13",
+   "caja": "M",
+   "numero": "F13",
+   "seccion": "cartucho",
+   "orden": 6,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "30A",
+   "tipo": "Cartucho (J-case / cartridge)",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Starter relay",
+   "funcion_es": "Relevador del motor de arranque (marcha)",
+   "palabras": [
+    "arranque",
+    "marcha",
+    "starter",
+    "motor",
+    "de",
+    "arranque",
+    "no",
+    "arranca"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F14",
+   "caja": "M",
+   "numero": "F14",
+   "seccion": "cartucho",
+   "orden": 7,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "25A",
+   "tipo": "Cartucho (J-case / cartridge)",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Rear power window (without door control unit)",
+   "funcion_es": "Ventanas eléctricas traseras (sin módulo de control de puerta)",
+   "palabras": [
+    "ventanas",
+    "vidrios",
+    "elevadores",
+    "traseras",
+    "power",
+    "window"
+   ],
+   "equipamiento": "Sin módulo de control de puerta (DCU)",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F15",
+   "caja": "M",
+   "numero": "F15",
+   "seccion": "cartucho",
+   "orden": 8,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "25A",
+   "tipo": "Cartucho (J-case / cartridge)",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Automatic transmission",
+   "funcion_es": "Transmisión automática",
+   "palabras": [
+    "transmision",
+    "automatica",
+    "caja",
+    "de",
+    "cambios",
+    "powershift"
+   ],
+   "equipamiento": "Transmisión automática",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F16",
+   "caja": "M",
+   "numero": "F16",
+   "seccion": "cartucho",
+   "orden": 9,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F17",
+   "caja": "M",
+   "numero": "F17",
+   "seccion": "cartucho",
+   "orden": 10,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F18",
+   "caja": "M",
+   "numero": "F18",
+   "seccion": "cartucho",
+   "orden": 11,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Cartucho (J-case / cartridge)",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Front wiper motor",
+   "funcion_es": "Motor de limpiaparabrisas delantero",
+   "palabras": [
+    "limpiaparabrisas",
+    "limpiadores",
+    "plumas",
+    "wiper",
+    "parabrisas"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F19",
+   "caja": "M",
+   "numero": "F19",
+   "seccion": "mini",
+   "orden": 12,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Anti-lock brake system/Electronic stability program 15 feed",
+   "funcion_es": "Alimentación 15 (con encendido) de ABS / ESP",
+   "palabras": [
+    "abs",
+    "esp",
+    "frenos",
+    "estabilidad"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F20",
+   "caja": "M",
+   "numero": "F20",
+   "seccion": "mini",
+   "orden": 13,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Horn",
+   "funcion_es": "Claxon (bocina)",
+   "palabras": [
+    "claxon",
+    "bocina",
+    "pito",
+    "horn"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F21",
+   "caja": "M",
+   "numero": "F21",
+   "seccion": "mini",
+   "orden": 14,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Stop light switch",
+   "funcion_es": "Interruptor de luces de freno (stop)",
+   "palabras": [
+    "luces",
+    "de",
+    "freno",
+    "stop",
+    "interruptor",
+    "pedal",
+    "freno",
+    "brake",
+    "light"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F22",
+   "caja": "M",
+   "numero": "F22",
+   "seccion": "mini",
+   "orden": 15,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Battery monitor system",
+   "funcion_es": "Sistema de monitoreo de batería",
+   "palabras": [
+    "bateria",
+    "monitor",
+    "sensor",
+    "bateria"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F23",
+   "caja": "M",
+   "numero": "F23",
+   "seccion": "mini",
+   "orden": 16,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Relay coils, Light switch module",
+   "funcion_es": "Bobinas de relevadores, módulo del interruptor de luces",
+   "palabras": [
+    "relevadores",
+    "luces",
+    "interruptor",
+    "de",
+    "luces",
+    "faros"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F24",
+   "caja": "M",
+   "numero": "F24",
+   "seccion": "mini",
+   "orden": 17,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "discrepancia",
+   "observaciones": "StartMyCar indica 15 A \"Not used (spare)\". El manual oficial v.3 indica \"Not used\" sin amperaje.",
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F25",
+   "caja": "M",
+   "numero": "F25",
+   "seccion": "mini",
+   "orden": 18,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Power exterior mirror (without door control unit)",
+   "funcion_es": "Espejos exteriores eléctricos (sin módulo de control de puerta)",
+   "palabras": [
+    "espejos",
+    "retrovisores",
+    "mirror"
+   ],
+   "equipamiento": "Sin módulo de control de puerta (DCU)",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F26",
+   "caja": "M",
+   "numero": "F26",
+   "seccion": "mini",
+   "orden": 19,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Transmission control module 30 feed automatic transmission",
+   "funcion_es": "Alimentación 30 (permanente) del módulo de control de la transmisión automática",
+   "palabras": [
+    "transmision",
+    "tcm",
+    "automatica"
+   ],
+   "equipamiento": "Transmisión automática",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F27",
+   "caja": "M",
+   "numero": "F27",
+   "seccion": "mini",
+   "orden": 20,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Air conditioning clutch",
+   "funcion_es": "Embrague (clutch) del compresor de aire acondicionado",
+   "palabras": [
+    "aire",
+    "acondicionado",
+    "clutch",
+    "compresor",
+    "a/c",
+    "ac",
+    "clima",
+    "no",
+    "enfria"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F28",
+   "caja": "M",
+   "numero": "F28",
+   "seccion": "mini",
+   "orden": 21,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Mass air flow fuel relay feed",
+   "funcion_es": "Alimentación del relevador de combustible / sensor de flujo de masa de aire",
+   "palabras": [
+    "maf",
+    "combustible",
+    "gasolina",
+    "sensor",
+    "flujo",
+    "aire"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F29",
+   "caja": "M",
+   "numero": "F29",
+   "seccion": "mini",
+   "orden": 22,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "discrepancia",
+   "observaciones": "StartMyCar indica 20 A \"Not used (spare)\". El manual oficial v.3 indica \"Not used\" sin amperaje.",
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F30",
+   "caja": "M",
+   "numero": "F30",
+   "seccion": "mini",
+   "orden": 23,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Electronic control module keep-alive power (Focus ST)",
+   "funcion_es": "Alimentación de memoria (keep-alive) del módulo de control electrónico (Focus ST)",
+   "palabras": [
+    "computadora",
+    "memoria",
+    "pcm",
+    "st"
+   ],
+   "equipamiento": "Solo Focus ST",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "discrepancia",
+   "observaciones": "StartMyCar no menciona la restricción \"(Focus ST)\" que sí aparece en el manual oficial v.3.",
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F31",
+   "caja": "M",
+   "numero": "F31",
+   "seccion": "mini",
+   "orden": 24,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 225
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F32",
+   "caja": "M",
+   "numero": "F32",
+   "seccion": "mini",
+   "orden": 25,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Exhaust gas recovery valve, Swirl control valves, Heated oxygen sensors",
+   "funcion_es": "Válvula de recirculación de gases (EGR), válvulas de control de turbulencia, sensores de oxígeno calefactados",
+   "palabras": [
+    "egr",
+    "sensores",
+    "oxigeno",
+    "o2",
+    "valvulas"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F33",
+   "caja": "M",
+   "numero": "F33",
+   "seccion": "mini",
+   "orden": 26,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Ignition coils",
+   "funcion_es": "Bobinas de encendido",
+   "palabras": [
+    "bobinas",
+    "encendido",
+    "chispa",
+    "ignition",
+    "coil",
+    "no",
+    "arranca",
+    "falla",
+    "motor"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "discrepancia",
+   "observaciones": "StartMyCar lista 10 A (versión normal) y 15 A (Focus ST). El manual oficial v.3 consultado lista solo 15 A sin distinguir versión. Confirme con la etiqueta de la tapa o con un distribuidor antes de reemplazar.",
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F34",
+   "caja": "M",
+   "numero": "F34",
+   "seccion": "mini",
+   "orden": 27,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Injectors",
+   "funcion_es": "Inyectores",
+   "palabras": [
+    "inyectores",
+    "combustible",
+    "gasolina",
+    "injector"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F35",
+   "caja": "M",
+   "numero": "F35",
+   "seccion": "mini",
+   "orden": 28,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Active grill shutter",
+   "funcion_es": "Persianas activas de la parrilla",
+   "palabras": [
+    "parrilla",
+    "persianas",
+    "grill"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F36",
+   "caja": "M",
+   "numero": "F36",
+   "seccion": "mini",
+   "orden": 29,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Engine control module",
+   "funcion_es": "Módulo de control del motor (computadora)",
+   "palabras": [
+    "computadora",
+    "pcm",
+    "ecm",
+    "modulo",
+    "motor"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F37",
+   "caja": "M",
+   "numero": "F37",
+   "seccion": "mini",
+   "orden": 30,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F38",
+   "caja": "M",
+   "numero": "F38",
+   "seccion": "mini",
+   "orden": 31,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Engine control module/Transmission control module 15 feed",
+   "funcion_es": "Alimentación 15 (con encendido) del módulo de control del motor / transmisión",
+   "palabras": [
+    "computadora",
+    "pcm",
+    "tcm",
+    "transmision"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F39",
+   "caja": "M",
+   "numero": "F39",
+   "seccion": "mini",
+   "orden": 32,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Headlamp control module (Focus ST)",
+   "funcion_es": "Módulo de control de faros (Focus ST)",
+   "palabras": [
+    "faros",
+    "luces",
+    "st"
+   ],
+   "equipamiento": "Solo Focus ST",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F40",
+   "caja": "M",
+   "numero": "F40",
+   "seccion": "mini",
+   "orden": 33,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Electronic power assist steering 15 feed",
+   "funcion_es": "Alimentación 15 de la dirección asistida eléctrica (EPAS)",
+   "palabras": [
+    "direccion",
+    "electrica",
+    "epas",
+    "volante"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F41",
+   "caja": "M",
+   "numero": "F41",
+   "seccion": "mini",
+   "orden": 34,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Body control module 15 feed",
+   "funcion_es": "Alimentación 15 del módulo de control de carrocería (BCM)",
+   "palabras": [
+    "bcm",
+    "modulo",
+    "carroceria"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F42",
+   "caja": "M",
+   "numero": "F42",
+   "seccion": "mini",
+   "orden": 35,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Rear Wiper",
+   "funcion_es": "Limpiador trasero",
+   "palabras": [
+    "limpiador",
+    "trasero",
+    "pluma",
+    "trasera",
+    "wiper"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F43",
+   "caja": "M",
+   "numero": "F43",
+   "seccion": "mini",
+   "orden": 36,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "High-intensity display headlamp leveling (Focus ST)",
+   "funcion_es": "Nivelación de faros de alta intensidad (HID) (Focus ST)",
+   "palabras": [
+    "faros",
+    "xenon",
+    "hid",
+    "nivelacion",
+    "st"
+   ],
+   "equipamiento": "Solo Focus ST",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F44",
+   "caja": "M",
+   "numero": "F44",
+   "seccion": "mini",
+   "orden": 37,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F45",
+   "caja": "M",
+   "numero": "F45",
+   "seccion": "mini",
+   "orden": 38,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F46",
+   "caja": "M",
+   "numero": "F46",
+   "seccion": "mini",
+   "orden": 39,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "25A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Power windows front (without door control unit)",
+   "funcion_es": "Ventanas eléctricas delanteras (sin módulo de control de puerta)",
+   "palabras": [
+    "ventanas",
+    "vidrios",
+    "elevadores",
+    "delanteras",
+    "power",
+    "window"
+   ],
+   "equipamiento": "Sin módulo de control de puerta (DCU)",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F47",
+   "caja": "M",
+   "numero": "F47",
+   "seccion": "mini",
+   "orden": 40,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "7.5A",
+   "tipo": "Mini",
+   "tipoFuente": "Manual: ** = cartucho, * = mini",
+   "funcion_en": "Heated mirror (without door control unit)",
+   "funcion_es": "Espejos con calefacción (sin módulo de control de puerta)",
+   "palabras": [
+    "espejos",
+    "calefaccion",
+    "desempañador"
+   ],
+   "equipamiento": "Sin módulo de control de puerta (DCU)",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-F48",
+   "caja": "M",
+   "numero": "F48",
+   "seccion": "mini",
+   "orden": 41,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R1",
+   "caja": "M",
+   "numero": "R1",
+   "seccion": "relevadores",
+   "orden": 42,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R2",
+   "caja": "M",
+   "numero": "R2",
+   "seccion": "relevadores",
+   "orden": 43,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Micro relevador",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Horn",
+   "funcion_es": "Claxon (bocina)",
+   "palabras": [
+    "claxon",
+    "bocina",
+    "relevador",
+    "horn"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R3",
+   "caja": "M",
+   "numero": "R3",
+   "seccion": "relevadores",
+   "orden": 44,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R4",
+   "caja": "M",
+   "numero": "R4",
+   "seccion": "relevadores",
+   "orden": 45,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R5",
+   "caja": "M",
+   "numero": "R5",
+   "seccion": "relevadores",
+   "orden": 46,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Micro relevador",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Rear wiper",
+   "funcion_es": "Limpiador trasero",
+   "palabras": [
+    "limpiador",
+    "trasero",
+    "relevador",
+    "wiper"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R6",
+   "caja": "M",
+   "numero": "R6",
+   "seccion": "relevadores",
+   "orden": 47,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 226
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R7",
+   "caja": "M",
+   "numero": "R7",
+   "seccion": "relevadores",
+   "orden": 48,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 227
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R8",
+   "caja": "M",
+   "numero": "R8",
+   "seccion": "relevadores",
+   "orden": 49,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Relevador de potencia",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Delayed accessory relay KL15",
+   "funcion_es": "Relevador de accesorios con retardo KL15",
+   "palabras": [
+    "accesorios",
+    "retardo",
+    "relevador"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 227
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R9",
+   "caja": "M",
+   "numero": "R9",
+   "seccion": "relevadores",
+   "orden": 50,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 227
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R10",
+   "caja": "M",
+   "numero": "R10",
+   "seccion": "relevadores",
+   "orden": 51,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Mini relevador",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Starter relay",
+   "funcion_es": "Relevador del motor de arranque (marcha)",
+   "palabras": [
+    "arranque",
+    "marcha",
+    "starter",
+    "relevador",
+    "no",
+    "arranca"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 227
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R11",
+   "caja": "M",
+   "numero": "R11",
+   "seccion": "relevadores",
+   "orden": 52,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Micro relevador",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Air conditioning clutch",
+   "funcion_es": "Embrague del compresor de aire acondicionado",
+   "palabras": [
+    "aire",
+    "acondicionado",
+    "clutch",
+    "compresor",
+    "relevador"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 227
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R12",
+   "caja": "M",
+   "numero": "R12",
+   "seccion": "relevadores",
+   "orden": 53,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Relevador de potencia",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Cooling fan",
+   "funcion_es": "Ventilador de enfriamiento (radiador)",
+   "palabras": [
+    "ventilador",
+    "radiador",
+    "enfriamiento",
+    "electroventilador",
+    "cooling",
+    "fan"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 227
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R13",
+   "caja": "M",
+   "numero": "R13",
+   "seccion": "relevadores",
+   "orden": 54,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Mini relevador",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Heater blower",
+   "funcion_es": "Ventilador de calefacción (soplador)",
+   "palabras": [
+    "soplador",
+    "ventilador",
+    "blower",
+    "relevador",
+    "clima"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 227
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R14",
+   "caja": "M",
+   "numero": "R14",
+   "seccion": "relevadores",
+   "orden": 55,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Mini relevador",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Engine control relay",
+   "funcion_es": "Relevador de control del motor",
+   "palabras": [
+    "relevador",
+    "computadora",
+    "motor"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 227
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R15",
+   "caja": "M",
+   "numero": "R15",
+   "seccion": "relevadores",
+   "orden": 56,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Relevador de potencia",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Heated rear window",
+   "funcion_es": "Desempañador / medallón trasero térmico",
+   "palabras": [
+    "desempañador",
+    "medallon",
+    "trasero",
+    "relevador"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 227
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "M-R16",
+   "caja": "M",
+   "numero": "R16",
+   "seccion": "relevadores",
+   "orden": 57,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Relevador de potencia",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Ignition 15",
+   "funcion_es": "Encendido (ignición) 15",
+   "palabras": [
+    "encendido",
+    "ignicion",
+    "relevador"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 227
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F56",
+   "caja": "P",
+   "numero": "F56",
+   "seccion": "mini",
+   "orden": 0,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Fuel pump supply, Mass air flow sensor",
+   "funcion_es": "Alimentación de la bomba de combustible, sensor de flujo de masa de aire",
+   "palabras": [
+    "bomba",
+    "de",
+    "gasolina",
+    "combustible",
+    "fuel",
+    "pump",
+    "maf",
+    "no",
+    "arranca"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 228
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F57",
+   "caja": "P",
+   "numero": "F57",
+   "seccion": "mini",
+   "orden": 1,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 228
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F58",
+   "caja": "P",
+   "numero": "F58",
+   "seccion": "mini",
+   "orden": 2,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 228
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F59",
+   "caja": "P",
+   "numero": "F59",
+   "seccion": "mini",
+   "orden": 3,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Passive anti-theft transceiver",
+   "funcion_es": "Transceptor del sistema antirrobo pasivo (PATS / inmovilizador)",
+   "palabras": [
+    "inmovilizador",
+    "pats",
+    "antirrobo",
+    "llave",
+    "chip",
+    "no",
+    "arranca"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 228
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F60",
+   "caja": "P",
+   "numero": "F60",
+   "seccion": "mini",
+   "orden": 4,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Interior light, Driver door switch pack, Glove box illumination, Overhead console switch bank",
+   "funcion_es": "Luz interior, botonera de la puerta del conductor, luz de guantera, botonera de la consola superior",
+   "palabras": [
+    "luz",
+    "interior",
+    "plafon",
+    "guantera",
+    "consola",
+    "botonera"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 228
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F61",
+   "caja": "P",
+   "numero": "F61",
+   "seccion": "mini",
+   "orden": 5,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Cigar lighter, Power point",
+   "funcion_es": "Encendedor, toma de corriente (12 V)",
+   "palabras": [
+    "encendedor",
+    "toma",
+    "12v",
+    "cargador",
+    "power",
+    "point",
+    "enchufe"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 228
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F62",
+   "caja": "P",
+   "numero": "F62",
+   "seccion": "mini",
+   "orden": 6,
+   "clase": "fusible",
+   "estado": "repuesto",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Not used (spare)",
+   "funcion_es": "No utilizado (repuesto)",
+   "palabras": [
+    "repuesto"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 228
+   },
+   "verificacion": "discrepancia",
+   "observaciones": "StartMyCar no lista esta posición de repuesto.",
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F63",
+   "caja": "P",
+   "numero": "F63",
+   "seccion": "mini",
+   "orden": 7,
+   "clase": "fusible",
+   "estado": "repuesto",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Not used (spare)",
+   "funcion_es": "No utilizado (repuesto)",
+   "palabras": [
+    "repuesto"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "discrepancia",
+   "observaciones": "StartMyCar no lista esta posición de repuesto.",
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F64",
+   "caja": "P",
+   "numero": "F64",
+   "seccion": "mini",
+   "orden": 8,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F65",
+   "caja": "P",
+   "numero": "F65",
+   "seccion": "mini",
+   "orden": 9,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Luggage compartment release",
+   "funcion_es": "Liberación (apertura) de la cajuela",
+   "palabras": [
+    "cajuela",
+    "maletero",
+    "apertura",
+    "trunk"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F66",
+   "caja": "P",
+   "numero": "F66",
+   "seccion": "mini",
+   "orden": 10,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Driver door unlock supply",
+   "funcion_es": "Alimentación del desbloqueo de la puerta del conductor",
+   "palabras": [
+    "seguros",
+    "desbloqueo",
+    "puerta",
+    "conductor",
+    "chapas"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F67",
+   "caja": "P",
+   "numero": "F67",
+   "seccion": "mini",
+   "orden": 11,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "7.5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "SYNC, Multifunction display, Global positioning system module, Compass",
+   "funcion_es": "SYNC, pantalla multifunción, módulo GPS, brújula",
+   "palabras": [
+    "sync",
+    "pantalla",
+    "gps",
+    "navegacion",
+    "brujula",
+    "radio"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F68",
+   "caja": "P",
+   "numero": "F68",
+   "seccion": "mini",
+   "orden": 12,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F69",
+   "caja": "P",
+   "numero": "F69",
+   "seccion": "mini",
+   "orden": 13,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Instrument cluster, Minor cluster (Focus ST)",
+   "funcion_es": "Tablero de instrumentos, cuadro secundario (Focus ST)",
+   "palabras": [
+    "tablero",
+    "instrumentos",
+    "cluster",
+    "velocimetro",
+    "testigos"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F70",
+   "caja": "P",
+   "numero": "F70",
+   "seccion": "mini",
+   "orden": 14,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Central lock and unlock supply",
+   "funcion_es": "Alimentación del bloqueo y desbloqueo central",
+   "palabras": [
+    "seguros",
+    "electricos",
+    "chapas",
+    "cerradura",
+    "central",
+    "lock"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F71",
+   "caja": "P",
+   "numero": "F71",
+   "seccion": "mini",
+   "orden": 15,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Heating control head (manual air conditioning), Duel electronic automatic temperature control",
+   "funcion_es": "Panel de control de calefacción (A/C manual), control electrónico automático de temperatura de dos zonas",
+   "palabras": [
+    "clima",
+    "aire",
+    "acondicionado",
+    "control",
+    "calefaccion",
+    "temperatura"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F72",
+   "caja": "P",
+   "numero": "F72",
+   "seccion": "mini",
+   "orden": 16,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "7.5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Steering wheel module",
+   "funcion_es": "Módulo del volante",
+   "palabras": [
+    "volante",
+    "controles",
+    "volante"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F73",
+   "caja": "P",
+   "numero": "F73",
+   "seccion": "mini",
+   "orden": 17,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "7.5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Data link connector",
+   "funcion_es": "Conector de diagnóstico (OBD-II)",
+   "palabras": [
+    "obd",
+    "escaner",
+    "diagnostico",
+    "conector",
+    "dlc"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F74",
+   "caja": "P",
+   "numero": "F74",
+   "seccion": "mini",
+   "orden": 18,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Low beam headlamp supply",
+   "funcion_es": "Alimentación de luces bajas (faros)",
+   "palabras": [
+    "faros",
+    "luces",
+    "bajas",
+    "focos",
+    "headlamp"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F75",
+   "caja": "P",
+   "numero": "F75",
+   "seccion": "mini",
+   "orden": 19,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Fog lamp supply",
+   "funcion_es": "Alimentación de faros de niebla",
+   "palabras": [
+    "niebla",
+    "faros",
+    "antiniebla",
+    "fog"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F76",
+   "caja": "P",
+   "numero": "F76",
+   "seccion": "mini",
+   "orden": 20,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Reversing lamp supply",
+   "funcion_es": "Alimentación de luces de reversa",
+   "palabras": [
+    "reversa",
+    "luces",
+    "reversa",
+    "marcha",
+    "atras"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F77",
+   "caja": "P",
+   "numero": "F77",
+   "seccion": "mini",
+   "orden": 21,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Washer pump",
+   "funcion_es": "Bomba del lavaparabrisas",
+   "palabras": [
+    "lavaparabrisas",
+    "chisgueteros",
+    "agua",
+    "parabrisas",
+    "washer"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F78",
+   "caja": "P",
+   "numero": "F78",
+   "seccion": "mini",
+   "orden": 22,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Ignition switch, Start button",
+   "funcion_es": "Interruptor de encendido, botón de arranque (START/STOP)",
+   "palabras": [
+    "switch",
+    "encendido",
+    "boton",
+    "start",
+    "arranque",
+    "llave",
+    "no",
+    "arranca"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F79",
+   "caja": "P",
+   "numero": "F79",
+   "seccion": "mini",
+   "orden": 23,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Radio, Navigation DVD player, Hazard light switch, Door lock switch",
+   "funcion_es": "Radio, reproductor DVD de navegación, interruptor de luces intermitentes de emergencia, interruptor de seguros de puertas",
+   "palabras": [
+    "radio",
+    "estereo",
+    "intermitentes",
+    "emergencia",
+    "seguros",
+    "boton"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F80",
+   "caja": "P",
+   "numero": "F80",
+   "seccion": "mini",
+   "orden": 24,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Moonroof supply",
+   "funcion_es": "Alimentación del quemacocos",
+   "palabras": [
+    "quemacocos",
+    "techo",
+    "corredizo",
+    "sunroof",
+    "moonroof"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F81",
+   "caja": "P",
+   "numero": "F81",
+   "seccion": "mini",
+   "orden": 25,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Radio frequency receiver",
+   "funcion_es": "Receptor de radiofrecuencia",
+   "palabras": [
+    "receptor",
+    "control",
+    "remoto",
+    "radiofrecuencia",
+    "rf",
+    "llave",
+    "encendido",
+    "remoto"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F82",
+   "caja": "P",
+   "numero": "F82",
+   "seccion": "mini",
+   "orden": 26,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Washer pump ground",
+   "funcion_es": "Tierra de la bomba del lavaparabrisas",
+   "palabras": [
+    "lavaparabrisas",
+    "tierra",
+    "washer"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F83",
+   "caja": "P",
+   "numero": "F83",
+   "seccion": "mini",
+   "orden": 27,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Central locking ground",
+   "funcion_es": "Tierra del bloqueo central",
+   "palabras": [
+    "seguros",
+    "electricos",
+    "tierra",
+    "chapas"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F84",
+   "caja": "P",
+   "numero": "F84",
+   "seccion": "mini",
+   "orden": 28,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "20A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Driver door unlock ground",
+   "funcion_es": "Tierra del desbloqueo de la puerta del conductor",
+   "palabras": [
+    "seguros",
+    "puerta",
+    "conductor",
+    "tierra"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 229
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F85",
+   "caja": "P",
+   "numero": "F85",
+   "seccion": "mini",
+   "orden": 29,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "7.5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Front seat heater switch, Heating module (manual air conditioning), Air quality sensor, Radio, In-car temperature and humidity sensor, Moonroof",
+   "funcion_es": "Interruptor de asientos con calefacción delanteros, módulo de calefacción (A/C manual), sensor de calidad del aire, radio, sensor de temperatura y humedad interior, quemacocos",
+   "palabras": [
+    "asientos",
+    "calefaccion",
+    "clima",
+    "radio",
+    "quemacocos",
+    "sensor"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 230
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F86",
+   "caja": "P",
+   "numero": "F86",
+   "seccion": "mini",
+   "orden": 30,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Air bag module, Occupant classification system, Passenger air bag deactivation indicator",
+   "funcion_es": "Módulo de bolsas de aire, sistema de clasificación del ocupante, indicador de desactivación de bolsa de aire del pasajero",
+   "palabras": [
+    "bolsa",
+    "de",
+    "aire",
+    "airbag",
+    "srs"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 230
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F87",
+   "caja": "P",
+   "numero": "F87",
+   "seccion": "mini",
+   "orden": 31,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 230
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F88",
+   "caja": "P",
+   "numero": "F88",
+   "seccion": "mini",
+   "orden": 32,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "25A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Supply for F67, F69, F71 and F79",
+   "funcion_es": "Alimentación de F67, F69, F71 y F79",
+   "palabras": [
+    "alimentacion",
+    "radio",
+    "tablero",
+    "clima",
+    "sync"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 230
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "P-F89",
+   "caja": "P",
+   "numero": "F89",
+   "seccion": "mini",
+   "orden": 33,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 230
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F1",
+   "caja": "C",
+   "numero": "F1",
+   "seccion": "mini",
+   "orden": 0,
+   "clase": "fusible",
+   "estado": "repuesto",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Not used (spare)",
+   "funcion_es": "No utilizado (repuesto)",
+   "palabras": [
+    "repuesto"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 230
+   },
+   "verificacion": "discrepancia",
+   "observaciones": "StartMyCar no lista esta posición de repuesto.",
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F2",
+   "caja": "C",
+   "numero": "F2",
+   "seccion": "mini",
+   "orden": 1,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "10A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Keyless vehicle module",
+   "funcion_es": "Módulo de vehículo sin llave (acceso inteligente)",
+   "palabras": [
+    "keyless",
+    "llave",
+    "inteligente",
+    "sin",
+    "llave",
+    "acceso"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 230
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F3",
+   "caja": "C",
+   "numero": "F3",
+   "seccion": "mini",
+   "orden": 2,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Keyless vehicle door handles",
+   "funcion_es": "Manijas de puertas del sistema sin llave",
+   "palabras": [
+    "manijas",
+    "keyless",
+    "sin",
+    "llave"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F4",
+   "caja": "C",
+   "numero": "F4",
+   "seccion": "mini",
+   "orden": 3,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "25A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Door control unit front left",
+   "funcion_es": "Módulo de control de puerta delantera izquierda",
+   "palabras": [
+    "dcu",
+    "puerta",
+    "ventanas",
+    "seguros",
+    "espejo",
+    "conductor"
+   ],
+   "equipamiento": "Con módulo de control de puerta (DCU)",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F5",
+   "caja": "C",
+   "numero": "F5",
+   "seccion": "mini",
+   "orden": 4,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "25A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Door control unit front right",
+   "funcion_es": "Módulo de control de puerta delantera derecha",
+   "palabras": [
+    "dcu",
+    "puerta",
+    "ventanas",
+    "seguros",
+    "espejo"
+   ],
+   "equipamiento": "Con módulo de control de puerta (DCU)",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F6",
+   "caja": "C",
+   "numero": "F6",
+   "seccion": "mini",
+   "orden": 5,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "25A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Door control unit rear left",
+   "funcion_es": "Módulo de control de puerta trasera izquierda",
+   "palabras": [
+    "dcu",
+    "puerta",
+    "ventanas",
+    "seguros"
+   ],
+   "equipamiento": "Con módulo de control de puerta (DCU)",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F7",
+   "caja": "C",
+   "numero": "F7",
+   "seccion": "mini",
+   "orden": 6,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "25A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Door control unit rear right",
+   "funcion_es": "Módulo de control de puerta trasera derecha",
+   "palabras": [
+    "dcu",
+    "puerta",
+    "ventanas",
+    "seguros"
+   ],
+   "equipamiento": "Con módulo de control de puerta (DCU)",
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F8",
+   "caja": "C",
+   "numero": "F8",
+   "seccion": "mini",
+   "orden": 7,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F9",
+   "caja": "C",
+   "numero": "F9",
+   "seccion": "mini",
+   "orden": 8,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "25A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Driver seat motor",
+   "funcion_es": "Motor del asiento del conductor",
+   "palabras": [
+    "asiento",
+    "electrico",
+    "motor",
+    "asiento"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F10",
+   "caja": "C",
+   "numero": "F10",
+   "seccion": "mini",
+   "orden": 9,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "25A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Audio amplifier",
+   "funcion_es": "Amplificador de audio",
+   "palabras": [
+    "amplificador",
+    "audio",
+    "bocinas",
+    "sonido",
+    "radio"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F11",
+   "caja": "C",
+   "numero": "F11",
+   "seccion": "mini",
+   "orden": 10,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F12",
+   "caja": "C",
+   "numero": "F12",
+   "seccion": "mini",
+   "orden": 11,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F13",
+   "caja": "C",
+   "numero": "F13",
+   "seccion": "mini",
+   "orden": 12,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F14",
+   "caja": "C",
+   "numero": "F14",
+   "seccion": "mini",
+   "orden": 13,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F15",
+   "caja": "C",
+   "numero": "F15",
+   "seccion": "mini",
+   "orden": 14,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F16",
+   "caja": "C",
+   "numero": "F16",
+   "seccion": "mini",
+   "orden": 15,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F17",
+   "caja": "C",
+   "numero": "F17",
+   "seccion": "mini",
+   "orden": 16,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F18",
+   "caja": "C",
+   "numero": "F18",
+   "seccion": "mini",
+   "orden": 17,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F19",
+   "caja": "C",
+   "numero": "F19",
+   "seccion": "mini",
+   "orden": 18,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F20",
+   "caja": "C",
+   "numero": "F20",
+   "seccion": "mini",
+   "orden": 19,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F21",
+   "caja": "C",
+   "numero": "F21",
+   "seccion": "mini",
+   "orden": 20,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F22",
+   "caja": "C",
+   "numero": "F22",
+   "seccion": "mini",
+   "orden": 21,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F23",
+   "caja": "C",
+   "numero": "F23",
+   "seccion": "mini",
+   "orden": 22,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F24",
+   "caja": "C",
+   "numero": "F24",
+   "seccion": "mini",
+   "orden": 23,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F25",
+   "caja": "C",
+   "numero": "F25",
+   "seccion": "mini",
+   "orden": 24,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F26",
+   "caja": "C",
+   "numero": "F26",
+   "seccion": "mini",
+   "orden": 25,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F27",
+   "caja": "C",
+   "numero": "F27",
+   "seccion": "mini",
+   "orden": 26,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F28",
+   "caja": "C",
+   "numero": "F28",
+   "seccion": "mini",
+   "orden": 27,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F29",
+   "caja": "C",
+   "numero": "F29",
+   "seccion": "mini",
+   "orden": 28,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Park assist camera",
+   "funcion_es": "Cámara de asistencia de estacionamiento",
+   "palabras": [
+    "camara",
+    "reversa",
+    "estacionamiento"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F30",
+   "caja": "C",
+   "numero": "F30",
+   "seccion": "mini",
+   "orden": 29,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "5A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Parking aid module",
+   "funcion_es": "Módulo de ayuda de estacionamiento (sensores)",
+   "palabras": [
+    "sensores",
+    "estacionamiento",
+    "reversa",
+    "parking"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F31",
+   "caja": "C",
+   "numero": "F31",
+   "seccion": "mini",
+   "orden": 30,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F32",
+   "caja": "C",
+   "numero": "F32",
+   "seccion": "mini",
+   "orden": 31,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F33",
+   "caja": "C",
+   "numero": "F33",
+   "seccion": "mini",
+   "orden": 32,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 231
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F34",
+   "caja": "C",
+   "numero": "F34",
+   "seccion": "mini",
+   "orden": 33,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Driver seat heater",
+   "funcion_es": "Calefacción del asiento del conductor",
+   "palabras": [
+    "asiento",
+    "calefaccion",
+    "conductor"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F35",
+   "caja": "C",
+   "numero": "F35",
+   "seccion": "mini",
+   "orden": 34,
+   "clase": "fusible",
+   "estado": "activo",
+   "amperaje": "15A",
+   "tipo": "Mini",
+   "tipoFuente": "StartMyCar (el manual no indica el tipo en esta tabla)",
+   "funcion_en": "Passenger seat heater",
+   "funcion_es": "Calefacción del asiento del pasajero",
+   "palabras": [
+    "asiento",
+    "calefaccion",
+    "pasajero"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F36",
+   "caja": "C",
+   "numero": "F36",
+   "seccion": "mini",
+   "orden": 35,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F37",
+   "caja": "C",
+   "numero": "F37",
+   "seccion": "mini",
+   "orden": 36,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F38",
+   "caja": "C",
+   "numero": "F38",
+   "seccion": "mini",
+   "orden": 37,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F39",
+   "caja": "C",
+   "numero": "F39",
+   "seccion": "mini",
+   "orden": 38,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F40",
+   "caja": "C",
+   "numero": "F40",
+   "seccion": "mini",
+   "orden": 39,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F41",
+   "caja": "C",
+   "numero": "F41",
+   "seccion": "mini",
+   "orden": 40,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F42",
+   "caja": "C",
+   "numero": "F42",
+   "seccion": "mini",
+   "orden": 41,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F43",
+   "caja": "C",
+   "numero": "F43",
+   "seccion": "mini",
+   "orden": 42,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F44",
+   "caja": "C",
+   "numero": "F44",
+   "seccion": "mini",
+   "orden": 43,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F45",
+   "caja": "C",
+   "numero": "F45",
+   "seccion": "mini",
+   "orden": 44,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-F46",
+   "caja": "C",
+   "numero": "F46",
+   "seccion": "mini",
+   "orden": 45,
+   "clase": "fusible",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-R1",
+   "caja": "C",
+   "numero": "R1",
+   "seccion": "relevadores",
+   "orden": 46,
+   "clase": "relevador",
+   "estado": "activo",
+   "amperaje": null,
+   "tipo": "Relevador de potencia",
+   "tipoFuente": "Manual (columna de amperaje)",
+   "funcion_en": "Rear 15 relay (2/88)",
+   "funcion_es": "Relevador trasero 15 (2/88)",
+   "palabras": [
+    "relevador",
+    "trasero",
+    "encendido"
+   ],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-R2",
+   "caja": "C",
+   "numero": "R2",
+   "seccion": "relevadores",
+   "orden": 47,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-R3",
+   "caja": "C",
+   "numero": "R3",
+   "seccion": "relevadores",
+   "orden": 48,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-R4",
+   "caja": "C",
+   "numero": "R4",
+   "seccion": "relevadores",
+   "orden": 49,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-R5",
+   "caja": "C",
+   "numero": "R5",
+   "seccion": "relevadores",
+   "orden": 50,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  },
+  {
+   "id": "C-R6",
+   "caja": "C",
+   "numero": "R6",
+   "seccion": "relevadores",
+   "orden": 51,
+   "clase": "relevador",
+   "estado": "sin-uso",
+   "amperaje": null,
+   "tipo": null,
+   "tipoFuente": null,
+   "funcion_en": "Not used",
+   "funcion_es": "No utilizado",
+   "palabras": [],
+   "equipamiento": null,
+   "fuente": {
+    "id": "OM2014v3",
+    "pagina": 232
+   },
+   "verificacion": "verificado-manual",
+   "observaciones": null,
+   "posicion": {
+    "tipo": "logica",
+    "nota": "Orden numérico; la disposición física no está verificada"
+   }
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "nota": "Cada grupo agrupa términos equivalentes (español común, regional e inglés técnico). Buscar cualquiera encuentra los demás.",
+ "grupos": [
+  ["radio", "estereo", "estéreo", "autoestereo", "audio", "sonido", "bocinas", "stereo"],
+  ["claxon", "bocina", "pito", "horn"],
+  ["limpiaparabrisas", "limpiadores", "plumas", "wiper", "wipers", "limpiador"],
+  ["lavaparabrisas", "chisgueteros", "chisguetero", "washer", "agua parabrisas"],
+  ["luces", "luz", "faros", "faro", "focos", "lamp", "headlamp", "headlight", "lampara"],
+  ["arranque", "marcha", "starter", "no arranca", "motor de arranque", "start"],
+  ["encendido remoto", "arranque remoto", "remote start", "remoto", "arranque a distancia"],
+  ["seguros", "chapas", "cerraduras", "lock", "seguros electricos", "bloqueo", "desbloqueo", "unlock"],
+  ["aire acondicionado", "a/c", "ac", "clima", "aire", "air conditioning", "compresor", "clutch"],
+  ["ventanas", "vidrios", "elevadores", "elevavidrios", "power window", "window"],
+  ["bomba de gasolina", "bomba de combustible", "gasolina", "combustible", "fuel pump", "fuel"],
+  ["ventilador", "soplador", "blower", "abanico"],
+  ["desempañador", "desempanador", "medallon", "medallón", "defroster", "heated rear window"],
+  ["cajuela", "maletero", "baul", "baúl", "trunk", "luggage"],
+  ["quemacocos", "techo corredizo", "sunroof", "moonroof"],
+  ["computadora", "pcm", "ecm", "modulo de motor", "engine control module"],
+  ["inmovilizador", "antirrobo", "pats", "chip", "llave"],
+  ["espejos", "retrovisores", "mirror"],
+  ["encendedor", "toma de corriente", "12v", "cargador", "power point", "cigar lighter"],
+  ["bolsa de aire", "airbag", "srs"],
+  ["direccion", "dirección", "volante", "steering"],
+  ["escaner", "escáner", "obd", "diagnostico", "data link connector"],
+  ["reversa", "marcha atras", "reversing"],
+  ["niebla", "antiniebla", "fog"],
+  ["frenos", "freno", "brake", "stop", "abs"],
+  ["asientos", "asiento", "seat"],
+  ["relevador", "relé", "rele", "relay"],
+  ["fusible", "fuse"]
+ ]
+}
